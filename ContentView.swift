@@ -7,9 +7,6 @@ struct ContentView: View {
     @FetchRequest(entity: TaskData.entity(), sortDescriptors: [])
     var tasks: FetchedResults<TaskData>
     
-    @FetchRequest(entity: SubTaskData.entity(), sortDescriptors: [])
-    var subTasks: FetchedResults<SubTaskData>
-    
     var body: some View {
         
         NavigationView {
