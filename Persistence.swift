@@ -1,3 +1,5 @@
+import CoreData
+
 class Persistence {
 
     static let shared = Persistence()
